@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: onboardingemployee
+netty:
+  default:
+    allocator:
+      max-order: 3
+
+kafka:
+  enabled: true
+  bootstrap:
+    servers: localhost:9092
